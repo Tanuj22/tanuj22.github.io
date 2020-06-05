@@ -96,11 +96,11 @@
             <section>
                 <h2>contact me</h2>
                 <p>
-                    <form>
-                        <input type="text" placeholder="name" required>
-                        <input type="email" placeholder="email" required><br>
-                        <textarea placeholder="your message" required rows="5"></textarea><br>
-                        <button class="btn_one">send</button>
+                    <form action="https://formspree.io/mlepband" method="POST">
+                        <input type="text" placeholder="name" name="name" required>
+                        <input type="email" placeholder="email" name="_replyto" required><br>
+                        <textarea placeholder="your message" required rows="5" name="message" required></textarea><br>
+                        <button class="btn_one" type="submit">send</button>
                     </form> 
                 </p>
             </section>
